@@ -1,0 +1,136 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+/* Hero Section */
+
+#hero {
+  background: url("/images/torshov.jpg") no-repeat center center/cover;
+  height: 343px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#hero-title {
+  margin-top: 0;
+  background: #1d3557;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 5px 12px;
+}
+
+#hero-title-2 {
+  background: #457b9d;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18.72px;
+  padding: 8px 29px;
+}
+
+/* Activities Section */
+#activities {
+  height: 378px;
+  background: #f1faee;
+}
+
+#activities-title {
+  margin-top: 0px;
+  padding-top: 39px;
+  margin-bottom: 54px;
+  color: #1d3557;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin-right: 33px;
+  width: 198px;
+}
+
+.item h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1d3557;
+}
+
+.item p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1d3557;
+}
+
+.item img {
+  border-radius: 50%;
+}
+
+/* Guide */
+#card {
+  padding: 50px 160px;
+}
+
+.cardd {
+  border-radius: 10px;
+  border-bottom: 5px solid #1d3557;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: #a8dadc;
+}
+
+.cardd img {
+  width: 180px;
+  height: 248.67px;
+  border-radius: 10px;
+}
+
+.cardd h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1d3557;
+  margin-bottom: 14px;
+}
+
+.cardd p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1d3557;
+  margin-bottom: 26px;
+}
+
+.cardd h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1d3557;
+}
